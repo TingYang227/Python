@@ -36,7 +36,33 @@ class Fraction:
         
         return firstnum == secondnum
     
+    def __mul__(self, other):
+        newnum = self.num * other.num
+        newden = self.den * other.den
+        common = gcd(newnum, newden)
+        
+        return Fraction(newnum//common, newden//common)
+    
+    def __sub__(self, other):
+        newnum = self.num * other.den - other.num * self.den
+        newden = self.den * self.num
+        common = gcd(newnum, newden)
+        
+        return Fraction(newnum//common, newden//common)
+    
+    def __truediv__(self, other):
+        newnum = self.num * other.den
+        newden = self.den * other.num
+        common = gcd(newnum, newden)
+        
+        return Fraction(newnum//common, newden//common)
+
+        
 x = Fraction(1, 2)
 y = Fraction(2, 3)
 print(x + y)
 print(x == y)
+print(x * y)
+print(y - x)
+print(x - y)
+print(x / y)

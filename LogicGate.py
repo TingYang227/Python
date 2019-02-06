@@ -80,6 +80,24 @@ class OrGate(BinaryGate):
             return 1
         else:
             return 0
+
+
+class NandGate(AndGate):
+
+    def performGateLogic(self):
+        if super().performGateLogic() == 1:
+            return 0
+        else:
+            return 1
+
+class NorGate(OrGate):
+
+    def performGateLogic(self):
+        if super().performGateLogic() == 1:
+            return 0
+        else:
+            return 1
+
         
         
 class UnaryGate(LogicGate):

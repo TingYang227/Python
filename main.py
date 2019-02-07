@@ -1,4 +1,3 @@
-import Stack
 
 def main():
     print("Import Stack successfully")

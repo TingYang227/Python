@@ -1,5 +1,5 @@
 class Node:
-    def __init__(self, initdata):
+    def __init__(self,initdata):
         self.data = initdata
         self.next = None
 
@@ -9,10 +9,10 @@ class Node:
     def getNext(self):
         return self.next
 
-    def setData(self, newdata):
+    def setData(self,newdata):
         self.data = newdata
 
-    def setNext(self, newnext):
+    def setNext(self,newnext):
         self.next = newnext
 
 
@@ -20,7 +20,7 @@ class OrderedList:
     def __init__(self):
         self.head = None
 
-    def search(self, item):
+    def search(self,item):
         current = self.head
         found = False
         stop = False
@@ -35,7 +35,7 @@ class OrderedList:
 
         return found
 
-    def add(self, item):
+    def add(self,item):
         current = self.head
         previous = None
         stop = False
@@ -46,7 +46,7 @@ class OrderedList:
                 previous = current
                 current = current.getNext()
 
-            temp = Node(item)
+        temp = Node(item)
         if previous == None:
             temp.setNext(self.head)
             self.head = temp
@@ -66,6 +66,7 @@ class OrderedList:
 
         return count
 
+
 mylist = OrderedList()
 mylist.add(31)
 mylist.add(77)
@@ -77,7 +78,3 @@ mylist.add(54)
 print(mylist.size())
 print(mylist.search(93))
 print(mylist.search(100))
-
-
-
-

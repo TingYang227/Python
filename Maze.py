@@ -72,6 +72,6 @@ class Maze:
             self.mazelist[row][col] = val
         self.moveTurtle(col, row)
 
-        
+
 
 

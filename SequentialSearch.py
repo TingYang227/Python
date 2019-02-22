@@ -10,4 +10,5 @@ def sequentialSearch(alist, item):
 
     return found
 
-print(sequentialSearch([1, 3, 15], 15))
+# print(sequentialSearch([1, 3, 15], 15))
+

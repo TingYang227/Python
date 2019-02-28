@@ -14,7 +14,7 @@ class HashTable:
             if self.slots[hashvalue] == key:
                 self.data[hashvalue] = data  # replace
             else:
-                bextslot = self.rehash(hashvalue, len(self.slots))
+                nextslot = self.rehash(hashvalue, len(self.slots))
                 while self.slots[nextslot] != None and \
                     self.slots[nextslot] != key:
                     nextslot = self.rehash(nextslot, len(self.slots))
@@ -54,3 +54,16 @@ class HashTable:
 
     def __setitem__(self, key, data):
         self.put(key, data)
+
+
+H = HashTable()
+H[54]="cat"
+H[26]="dog"
+H[93]="lion"
+H[17]="tiger"
+H[77]="bird"
+H[31]="cow"
+H[44]="goat"
+H[55]="pig"
+H[20]="chicken"
+print(H.slots)

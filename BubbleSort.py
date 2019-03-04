@@ -5,4 +5,3 @@ def bubbleSort(alist):
                 temp = alist[i]
                 alist[i] = alist[i+1]
                 alist[i+1] = temp
-                    

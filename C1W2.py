@@ -18,7 +18,22 @@ df.index = names_ids.str[0] # the [0] element is the country name (new index)
 df['ID'] = names_ids.str[1].str[:3] # the [1] element is the abbreviation or ID (take first 3 characters from that)
 
 df = df.drop('Totals')
-print(df.head())
+# print(df.head())
 
 
+# Question 0
+def answer_zero():
+    return df.iloc[0]
 
+# print(answer_zero())
+# print((df.iloc[2]))
+# print(df.loc['China'])
+
+# Question 1
+print(df['Gold'])
+import numpy as np
+
+def answer_one():
+    return np.argmax(df['Gold'])
+
+print(answer_one())

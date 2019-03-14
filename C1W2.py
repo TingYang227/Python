@@ -30,10 +30,12 @@ def answer_zero():
 # print(df.loc['China'])
 
 # Question 1
-print(df['Gold'])
+# print(df['Gold'])
 import numpy as np
 
 def answer_one():
-    return np.argmax(df['Gold'])
+    most_gold = max(df['Gold'])
+    return str(df[df['Gold'] == most_gold].index[0])
 
-print(answer_one())
+most_gold = 576
+print(df[df['Gold'] == most_gold].index[0])

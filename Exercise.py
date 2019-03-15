@@ -1,5 +1,7 @@
-myTree = ['a', ['b', ['d',[],[]], ['e',[],[]] ], ['c', ['f',[],[]], []] ]
-print(myTree)
-print('left subtree = ', myTree[1])
-print('root = ', myTree[0])
-print('right subtree = ', myTree[2])
+arp_table = {}
+for i in range(1,5):
+    arp_table[i] = {i}
+
+print(len(arp_table))
+print(arp_table)
+print(type(arp_table))

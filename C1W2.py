@@ -37,5 +37,14 @@ def answer_one():
     most_gold = max(df['Gold'])
     return str(df[df['Gold'] == most_gold].index[0])
 
-most_gold = 576
-print(df[df['Gold'] == most_gold].index[0])
+# Question 2
+
+def answer_two():
+    copy_df = df.copy()
+    copy_df['Diff'] = copy_df['Gold'] - copy_df['Gold.1']
+    most_diff = max(copy_df['Diff'])
+    return (str(copy_df[copy_df['Diff'] == most_diff].index[0]))
+
+print(answer_two())
+
+

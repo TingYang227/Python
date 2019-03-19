@@ -48,3 +48,25 @@ def answer_two():
 print(answer_two())
 
 
+def answer_three():
+    copy_df = df.copy()
+    copy_df = copy_df.where(df['Gold'] > 0)
+    copy_df = copy_df.where(df['Gold.1'] > 0)
+    #     print(copy_df)
+    #     copy_df_final = copy_df[np.isfinite(copy_df['Gold_Ratio'])]
+    copy_df['Diff'] = copy_df['Gold'] - copy_df['Gold.1']
+    copy_df['Gold_Ratio'] = copy_df['Diff'] / (copy_df['Gold'] + copy_df['Gold.1'])
+    copy_df_final = copy_df[np.isfinite(copy_df['Gold_Ratio'])]
+    max_ratio = max(copy_df_final['Gold_Ratio'])
+
+    return (str(copy_df_final[copy_df_final['Gold_Ratio'] == max_ratio].index[0]))
+
+#     copy_df['Gold_Ratio'] = copy_df['Diff'] / copy_df['Gold']
+#     copy_df_final = copy_df[np.isfinite(copy_df['Gold_Ratio'])]
+#     print((copy_df_final['Gold_Ratio']))
+# #     most_ratio = max(copy_df_final['Gold_Ratio']))
+#     print(most_ratio)
+#     most_diff = max(copy_df['Diff'])
+#     return (str(copy_df_final[copy_df_final['Gold_Ratio'] == most_ratio].index[0]))
+
+# answer_three()

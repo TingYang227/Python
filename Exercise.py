@@ -1,20 +1,45 @@
-import matplotlib as mpl
-import matplotlib.pyplot as plt
 
-from matplotlib.backends.backend_agg import FigureCanvasAgg
-from matplotlib.figure import Figure
+Gateways=[
+	    {
+	    'switch_id' : 24,
+	    'gateway_ip' : '10.5.24.254',
+	    'subnet' : 24,
+	    'gateway_mac' : "00:00:00:00:00:24"
+	    },
 
-# Create a new figure
-fig = Figure()
+	 ]
 
-# associate fig with the backend
-canvas = FigureCanvasAgg(fig)
 
-# add a subplot to the figure
-ax = fig.add_subplot(111)
+Islands=[
+	    # for VLAN24
+	    {
+	    'connected_switch_id' : 24,
+	    'ip_and_subnet' : '10.5.25.0/24',
+	    'port' : 2,
+	    },
+	    {
+	    'connected_switch_id' : 24,
+	    'ip_and_subnet' : '10.5.26.0/24',
+	    'port' : 2,
+	    },
 
-# plot the point (3, 2)
-ax.plot(3, 2, '.')
+	    {
+	    'connected_switch_id' : 24,
+	    'ip_and_subnet' : '10.5.28.0/24',
+	    'port' : 2,
+	    },
 
-# save the figure to test.png
-canvas.print_png('test.png')
+	    {
+	    'connected_switch_id' : 24,
+	    'ip_and_subnet' : '10.5.31.0/24',
+	    'port' : 2,
+	    },
+	    # The newly added VLAN 22
+	    {
+	    'connected_switch_id' : 22,
+	    'ip_and_subnet': '10.5.22.0/24',
+	    'port':2,
+	    }
+
+	 ]
+

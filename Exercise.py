@@ -1,23 +1,14 @@
-import matplotlib.pyplot as plt
-import numpy as np
+import json
 
-# Fixing random state for reproducibility
-np.random.seed(19680801)
+python_obj = [[1,2,3],123,123.123,'abc',{'key1':(1,2,3),'key2':(4,5,6)},True,False,None]
 
+print(python_obj)
 
-N = 100
-r0 = 0.6
-x = 0.9 * np.random.rand(N)
-y = 0.9 * np.random.rand(N)
-area = (20 * np.random.rand(N))**2  # 0 to 10 point radii
-c = np.sqrt(area)
-r = np.sqrt(x * x + y * y)
-area1 = np.ma.masked_where(r < r0, area)
-area2 = np.ma.masked_where(r >= r0, area)
-plt.scatter(x, y, s=area1, marker='^', c=c)
-plt.scatter(x, y, s=area2, marker='o', c=c)
-# Show the boundary between the regions:
-theta = np.arange(0, np.pi / 2, 0.01)
-plt.plot(r0 * np.cos(theta), r0 * np.sin(theta))
+json_str = json.dumps(python_obj)
 
-plt.show()
+print(json_str)
+
+python_obj2 = {"key2": [4, 5, 6], "key1": [1, 2, 3]}
+json_str2 = json.dumps(python_obj2, indent=2)
+
+print(json_str2)

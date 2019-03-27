@@ -1,0 +1,2002 @@
+{
+    "24": [
+        {
+            "actions": [
+                "OUTPUT:CONTROLLER"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 3029069,
+            "hard_timeout": 0,
+            "byte_count": 219501866,
+            "duration_sec": 78433,
+            "duration_nsec": 930000000,
+            "priority": 65535,
+            "length": 96,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 35020,
+                "dl_dst": "01:80:c2:00:00:0e"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:00:13:3b:0f:f3:b7}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 2008,
+            "hard_timeout": 0,
+            "byte_count": 128512,
+            "duration_sec": 5445205,
+            "duration_nsec": 753000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.51"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:00:02:95:07:a0:2f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 28185,
+            "hard_timeout": 0,
+            "byte_count": 2744390,
+            "duration_sec": 8093476,
+            "duration_nsec": 497000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.6"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:50:2d:f4:0b:58:c0}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 97068,
+            "hard_timeout": 0,
+            "byte_count": 9742916,
+            "duration_sec": 4921411,
+            "duration_nsec": 787000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.73"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:00:24:a4:11:68:01}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 13697,
+            "hard_timeout": 0,
+            "byte_count": 1059208,
+            "duration_sec": 4921832,
+            "duration_nsec": 268000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.70"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:00:24:a4:11:61:c9}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 184792,
+            "hard_timeout": 0,
+            "byte_count": 18545487,
+            "duration_sec": 5529399,
+            "duration_nsec": 978000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.67"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:ec:0d:9a:3e:79:0e}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 114,
+            "hard_timeout": 0,
+            "byte_count": 21184,
+            "duration_sec": 6653535,
+            "duration_nsec": 495000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.35"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:ec:0d:9a:3e:84:0e}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 7148449,
+            "hard_timeout": 0,
+            "byte_count": 550226156,
+            "duration_sec": 5855065,
+            "duration_nsec": 374000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.36"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:d0:94:66:45:79:3f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 558,
+            "hard_timeout": 0,
+            "byte_count": 118304,
+            "duration_sec": 5102230,
+            "duration_nsec": 282000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.31"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:d0:94:66:3a:2b:15}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 6,
+            "hard_timeout": 0,
+            "byte_count": 536,
+            "duration_sec": 4585635,
+            "duration_nsec": 142000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.30"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:d0:94:66:2f:7e:60}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 2,
+            "hard_timeout": 0,
+            "byte_count": 128,
+            "duration_sec": 4585634,
+            "duration_nsec": 959000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.39"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:00:13:3b:21:00:66}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 24,
+            "hard_timeout": 0,
+            "byte_count": 2658,
+            "duration_sec": 6279740,
+            "duration_nsec": 959000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.250"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:00:86:9c:0a:a5:40}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 2052,
+            "hard_timeout": 0,
+            "byte_count": 199543,
+            "duration_sec": 4585635,
+            "duration_nsec": 923000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.10"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:24:8a:07:b4:3a:22}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 253,
+            "hard_timeout": 0,
+            "byte_count": 55889,
+            "duration_sec": 6105360,
+            "duration_nsec": 286000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.38"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:00:04:96:a1:99:20}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 63,
+            "hard_timeout": 0,
+            "byte_count": 5026,
+            "duration_sec": 7847592,
+            "duration_nsec": 787000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.16"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:c8:ca:ff}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 35,
+            "hard_timeout": 0,
+            "byte_count": 2754,
+            "duration_sec": 8036671,
+            "duration_nsec": 583000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.130"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:b3:c9:a5}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 16,
+            "hard_timeout": 0,
+            "byte_count": 1024,
+            "duration_sec": 4585634,
+            "duration_nsec": 171000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.138"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:a7:f6:d6}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 6,
+            "hard_timeout": 0,
+            "byte_count": 612,
+            "duration_sec": 4580676,
+            "duration_nsec": 824000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.191"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:38:ac:b7}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 5,
+            "hard_timeout": 0,
+            "byte_count": 320,
+            "duration_sec": 4585634,
+            "duration_nsec": 35000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.93"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:d0:94:66:0f:6b:85}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 60,
+            "hard_timeout": 0,
+            "byte_count": 5969,
+            "duration_sec": 8106120,
+            "duration_nsec": 35000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.37"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:24:6e:96:9b:6f:6c}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 29,
+            "hard_timeout": 0,
+            "byte_count": 2844,
+            "duration_sec": 5013832,
+            "duration_nsec": 785000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.26"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:d0:94:66:47:b3:4a}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 4,
+            "hard_timeout": 0,
+            "byte_count": 308,
+            "duration_sec": 4585634,
+            "duration_nsec": 959000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.40"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:d0:94:66:47:a5:19}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 7582269,
+            "hard_timeout": 0,
+            "byte_count": 11301316378,
+            "duration_sec": 5700251,
+            "duration_nsec": 488000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.20"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:14:18:77:63:e2:fb}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 92478,
+            "hard_timeout": 0,
+            "byte_count": 8155798,
+            "duration_sec": 7851129,
+            "duration_nsec": 401000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.45"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:50:9a:4c:62:e8:92}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 14,
+            "hard_timeout": 0,
+            "byte_count": 2459,
+            "duration_sec": 4585633,
+            "duration_nsec": 841000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.23"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:24:6e:96:9b:6c:9c}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 1873,
+            "hard_timeout": 0,
+            "byte_count": 1913613,
+            "duration_sec": 6068482,
+            "duration_nsec": 38000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.47"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:ec:0d:9a:3e:75:5e}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 2,
+            "hard_timeout": 0,
+            "byte_count": 128,
+            "duration_sec": 4585634,
+            "duration_nsec": 829000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.25"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:24:6e:96:9b:6c:bc}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 27,
+            "hard_timeout": 0,
+            "byte_count": 2270,
+            "duration_sec": 4585634,
+            "duration_nsec": 829000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.27"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:a0:36:9f:e8:b6:14}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 25,
+            "hard_timeout": 0,
+            "byte_count": 2860,
+            "duration_sec": 5784483,
+            "duration_nsec": 678000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.29"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:24:6e:96:9b:69:40}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 11,
+            "hard_timeout": 0,
+            "byte_count": 1126,
+            "duration_sec": 4585634,
+            "duration_nsec": 958000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.21"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:00:0a:f7:bc:99:b6}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 1562,
+            "hard_timeout": 0,
+            "byte_count": 121794,
+            "duration_sec": 5002645,
+            "duration_nsec": 381000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.28"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:ec:0d:9a:3e:83:fe}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 1400,
+            "hard_timeout": 0,
+            "byte_count": 137242,
+            "duration_sec": 8070506,
+            "duration_nsec": 541000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.50"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:ec:c6:75}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 0,
+            "hard_timeout": 0,
+            "byte_count": 0,
+            "duration_sec": 4580674,
+            "duration_nsec": 484000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.218"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:18:d0:ea}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 0,
+            "hard_timeout": 0,
+            "byte_count": 0,
+            "duration_sec": 4580671,
+            "duration_nsec": 482000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.199"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:24:6e:96:9b:6f:80}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 25,
+            "hard_timeout": 0,
+            "byte_count": 4469,
+            "duration_sec": 8038369,
+            "duration_nsec": 917000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.42"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:00:24:a4:11:6c:09}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 600558,
+            "hard_timeout": 0,
+            "byte_count": 46845952,
+            "duration_sec": 5529165,
+            "duration_nsec": 589000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.68"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:f1:3e:5f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 15,
+            "hard_timeout": 0,
+            "byte_count": 1530,
+            "duration_sec": 4580674,
+            "duration_nsec": 484000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.220"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:a7:f6:d6}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 408,
+            "hard_timeout": 0,
+            "byte_count": 68316,
+            "duration_sec": 8104601,
+            "duration_nsec": 475000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.181"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:55:c9:03}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 16,
+            "hard_timeout": 0,
+            "byte_count": 1024,
+            "duration_sec": 4585634,
+            "duration_nsec": 676000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.85"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:18:d6:c7:11:3f:11}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 2009,
+            "hard_timeout": 0,
+            "byte_count": 263265,
+            "duration_sec": 4585634,
+            "duration_nsec": 746000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.64"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:f1:3e:5f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 663,
+            "hard_timeout": 0,
+            "byte_count": 89305,
+            "duration_sec": 4585634,
+            "duration_nsec": 170000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.222"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:55:c9:03}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 6,
+            "hard_timeout": 0,
+            "byte_count": 384,
+            "duration_sec": 4580682,
+            "duration_nsec": 433000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.87"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:00:04:96:9e:51:15}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 48,
+            "hard_timeout": 0,
+            "byte_count": 4022,
+            "duration_sec": 4585637,
+            "duration_nsec": 675000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.1"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:f1:3e:5f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 1494624,
+            "hard_timeout": 0,
+            "byte_count": 122364047,
+            "duration_sec": 7909582,
+            "duration_nsec": 242000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.221"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:f1:3e:5f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 6,
+            "hard_timeout": 0,
+            "byte_count": 498,
+            "duration_sec": 4580678,
+            "duration_nsec": 932000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.215"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:f1:3e:5f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 451,
+            "hard_timeout": 0,
+            "byte_count": 47473,
+            "duration_sec": 3641136,
+            "duration_nsec": 226000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.223"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:58:54:3f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 0,
+            "hard_timeout": 0,
+            "byte_count": 0,
+            "duration_sec": 3274502,
+            "duration_nsec": 223000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.62"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:58:54:3f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 467,
+            "hard_timeout": 0,
+            "byte_count": 54829,
+            "duration_sec": 3264807,
+            "duration_nsec": 827000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.69"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:58:54:3f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 13,
+            "hard_timeout": 0,
+            "byte_count": 1432,
+            "duration_sec": 3242140,
+            "duration_nsec": 922000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.72"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:58:54:3f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 7887,
+            "hard_timeout": 0,
+            "byte_count": 809039,
+            "duration_sec": 3178927,
+            "duration_nsec": 836000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.61"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:58:54:3f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 12,
+            "hard_timeout": 0,
+            "byte_count": 1175,
+            "duration_sec": 3242727,
+            "duration_nsec": 3000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.65"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:58:54:3f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 640,
+            "hard_timeout": 0,
+            "byte_count": 53897,
+            "duration_sec": 3268778,
+            "duration_nsec": 323000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.63"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:b8:27:eb:ad:d1:95}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 1,
+            "hard_timeout": 0,
+            "byte_count": 78,
+            "duration_sec": 2754443,
+            "duration_nsec": 100000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.55"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:18:db:f2:05:ba:8d}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 10238,
+            "hard_timeout": 0,
+            "byte_count": 806650,
+            "duration_sec": 2508499,
+            "duration_nsec": 431000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.56"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:00:24:a4:11:6c:09}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 33019,
+            "hard_timeout": 0,
+            "byte_count": 2575338,
+            "duration_sec": 2508125,
+            "duration_nsec": 742000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.57"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:58:54:3f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 2,
+            "hard_timeout": 0,
+            "byte_count": 140,
+            "duration_sec": 1974704,
+            "duration_nsec": 723000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.233"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:50:2d:f4:0b:58:d3}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 5,
+            "hard_timeout": 0,
+            "byte_count": 445,
+            "duration_sec": 1906891,
+            "duration_nsec": 200000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.74"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:93:41:8e}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 96,
+            "hard_timeout": 0,
+            "byte_count": 37603,
+            "duration_sec": 1967169,
+            "duration_nsec": 908000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.239"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:12:96:19}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 71,
+            "hard_timeout": 0,
+            "byte_count": 61971,
+            "duration_sec": 1967237,
+            "duration_nsec": 331000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.230"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:d4:95:dd}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 139,
+            "hard_timeout": 0,
+            "byte_count": 112042,
+            "duration_sec": 1967356,
+            "duration_nsec": 422000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.231"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:cd:01:6b}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 1,
+            "hard_timeout": 0,
+            "byte_count": 102,
+            "duration_sec": 1900397,
+            "duration_nsec": 908000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.197"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:58:8a:5a:f0:c4:04}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 1,
+            "hard_timeout": 0,
+            "byte_count": 102,
+            "duration_sec": 1901518,
+            "duration_nsec": 129000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.210"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:9f:25:37}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 300,
+            "hard_timeout": 0,
+            "byte_count": 185145,
+            "duration_sec": 1901282,
+            "duration_nsec": 344000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.201"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:cf:7e:6f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 1,
+            "hard_timeout": 0,
+            "byte_count": 102,
+            "duration_sec": 1901053,
+            "duration_nsec": 209000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.200"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:d3:d1:5c}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 2084,
+            "hard_timeout": 0,
+            "byte_count": 2483309,
+            "duration_sec": 1902080,
+            "duration_nsec": 0,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.194"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:23:78:12}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 81,
+            "hard_timeout": 0,
+            "byte_count": 27782,
+            "duration_sec": 1900091,
+            "duration_nsec": 849000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.180"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:eb:99:db}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 177,
+            "hard_timeout": 0,
+            "byte_count": 13878,
+            "duration_sec": 1901033,
+            "duration_nsec": 114000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.192"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:48:48:3d}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 53,
+            "hard_timeout": 0,
+            "byte_count": 4830,
+            "duration_sec": 1901095,
+            "duration_nsec": 237000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.202"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:2c:ac:64}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 73,
+            "hard_timeout": 0,
+            "byte_count": 11535,
+            "duration_sec": 1676937,
+            "duration_nsec": 789000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.236"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:e1:6c:ad}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 64,
+            "hard_timeout": 0,
+            "byte_count": 12258,
+            "duration_sec": 1676886,
+            "duration_nsec": 315000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.232"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:d0:94:66:0a:79:5b}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 4047,
+            "hard_timeout": 0,
+            "byte_count": 371457,
+            "duration_sec": 607545,
+            "duration_nsec": 191000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.241"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:d8:9e:f3:0c:45:85}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 2318,
+            "hard_timeout": 0,
+            "byte_count": 204834,
+            "duration_sec": 606923,
+            "duration_nsec": 250000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.242"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:54:68:ff}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 3,
+            "hard_timeout": 0,
+            "byte_count": 685,
+            "duration_sec": 175286,
+            "duration_nsec": 838000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.205"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:5a:39:67}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 4,
+            "hard_timeout": 0,
+            "byte_count": 763,
+            "duration_sec": 156939,
+            "duration_nsec": 97000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.203"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:27:b2:ce}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 1536,
+            "hard_timeout": 0,
+            "byte_count": 170147,
+            "duration_sec": 93462,
+            "duration_nsec": 332000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.193"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:a1:b1:a2}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 1172,
+            "hard_timeout": 0,
+            "byte_count": 1557504,
+            "duration_sec": 159403,
+            "duration_nsec": 872000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.204"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:0c:b5:8d}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 69,
+            "hard_timeout": 0,
+            "byte_count": 11045,
+            "duration_sec": 1677902,
+            "duration_nsec": 213000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.235"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:d0:94:66:0a:79:5b}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 2202081,
+            "hard_timeout": 0,
+            "byte_count": 432483232,
+            "duration_sec": 603551,
+            "duration_nsec": 545000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.247"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:00:13:3b:0f:ea:a7}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 4963,
+            "hard_timeout": 0,
+            "byte_count": 1302054,
+            "duration_sec": 1195883,
+            "duration_nsec": 828000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.49"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:d8:9e:f3:0c:45:85}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 1602,
+            "hard_timeout": 0,
+            "byte_count": 220098,
+            "duration_sec": 603534,
+            "duration_nsec": 20000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.248"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:a7:f6:d6}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 1659,
+            "hard_timeout": 0,
+            "byte_count": 2160167,
+            "duration_sec": 953238,
+            "duration_nsec": 448000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.187"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:a7:f6:d6}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 893296,
+            "hard_timeout": 0,
+            "byte_count": 1174857961,
+            "duration_sec": 1210861,
+            "duration_nsec": 513000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.182"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:f1:3e:5f}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 30449,
+            "hard_timeout": 0,
+            "byte_count": 3726907,
+            "duration_sec": 607407,
+            "duration_nsec": 512000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.224"
+            }
+        },
+        {
+            "actions": [
+                "OUTPUT:CONTROLLER"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 31,
+            "hard_timeout": 0,
+            "byte_count": 2226,
+            "duration_sec": 78433,
+            "duration_nsec": 923000000,
+            "priority": 1000,
+            "length": 96,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.254"
+            }
+        },
+        {
+            "actions": [
+                "SET_FIELD: {eth_dst:fa:16:3e:a7:f6:d6}",
+                "OUTPUT:1"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 9,
+            "hard_timeout": 0,
+            "byte_count": 918,
+            "duration_sec": 5345,
+            "duration_nsec": 925000000,
+            "priority": 200,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.195"
+            }
+        },
+        {
+            "actions": [
+                "OUTPUT:NORMAL"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 0,
+            "hard_timeout": 0,
+            "byte_count": 0,
+            "duration_sec": 78433,
+            "duration_nsec": 923000000,
+            "priority": 50,
+            "length": 112,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_src": "10.5.24.0/255.255.255.0",
+                "nw_dst": "10.5.24.0/255.255.255.0"
+            }
+        },
+        {
+            "actions": [
+                "OUTPUT:CONTROLLER"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 229800553,
+            "hard_timeout": 0,
+            "byte_count": 25764628110,
+            "duration_sec": 78433,
+            "duration_nsec": 923000000,
+            "priority": 20,
+            "length": 96,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.24.0/255.255.255.0"
+            }
+        },
+        {
+            "actions": [
+                "OUTPUT:2"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 23321863,
+            "hard_timeout": 0,
+            "byte_count": 29152920880,
+            "duration_sec": 78433,
+            "duration_nsec": 918000000,
+            "priority": 40,
+            "length": 96,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.25.0/255.255.255.0"
+            }
+        },
+        {
+            "actions": [
+                "OUTPUT:2"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 6,
+            "hard_timeout": 0,
+            "byte_count": 612,
+            "duration_sec": 78433,
+            "duration_nsec": 918000000,
+            "priority": 40,
+            "length": 96,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.26.0/255.255.255.0"
+            }
+        },
+        {
+            "actions": [
+                "OUTPUT:2"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 472627,
+            "hard_timeout": 0,
+            "byte_count": 118984626,
+            "duration_sec": 78433,
+            "duration_nsec": 919000000,
+            "priority": 40,
+            "length": 96,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.28.0/255.255.255.0"
+            }
+        },
+        {
+            "actions": [
+                "OUTPUT:2"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 46,
+            "hard_timeout": 0,
+            "byte_count": 4046,
+            "duration_sec": 78433,
+            "duration_nsec": 919000000,
+            "priority": 40,
+            "length": 96,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.31.0/255.255.255.0"
+            }
+        },
+        {
+            "actions": [
+                "OUTPUT:2"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 0,
+            "hard_timeout": 0,
+            "byte_count": 0,
+            "duration_sec": 78433,
+            "duration_nsec": 919000000,
+            "priority": 40,
+            "length": 96,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.22.0/255.255.255.0"
+            }
+        },
+        {
+            "actions": [
+                "OUTPUT:2"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 0,
+            "hard_timeout": 0,
+            "byte_count": 0,
+            "duration_sec": 78433,
+            "duration_nsec": 919000000,
+            "priority": 40,
+            "length": 96,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048,
+                "nw_dst": "10.5.1.0/255.255.255.0"
+            }
+        },
+        {
+            "actions": [],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 913692395,
+            "hard_timeout": 0,
+            "byte_count": 283657742445,
+            "duration_sec": 78433,
+            "duration_nsec": 924000000,
+            "priority": 1,
+            "length": 64,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2048
+            }
+        },
+        {
+            "actions": [
+                "OUTPUT:CONTROLLER"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 2454473858,
+            "hard_timeout": 0,
+            "byte_count": 157086326912,
+            "duration_sec": 78433,
+            "duration_nsec": 924000000,
+            "priority": 1,
+            "length": 88,
+            "flags": 0,
+            "table_id": 0,
+            "match": {
+                "dl_type": 2054
+            }
+        },
+        {
+            "actions": [
+                "OUTPUT:NORMAL"
+            ],
+            "idle_timeout": 0,
+            "cookie": 0,
+            "packet_count": 0,
+            "hard_timeout": 0,
+            "byte_count": 0,
+            "duration_sec": 78433,
+            "duration_nsec": 924000000,
+            "priority": 0,
+            "length": 80,
+            "flags": 0,
+            "table_id": 0,
+            "match": {}
+        }
+    ]
+}
+

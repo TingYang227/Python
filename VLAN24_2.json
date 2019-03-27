@@ -1,0 +1,21 @@
+{
+    "actions": [
+        "SET_FIELD: {eth_dst:00:13:3b:0f:f3:b7}",
+        "OUTPUT:1"
+    ],
+    "idle_timeout": 0,
+    "cookie": 0,
+    "packet_count": 2008,
+    "hard_timeout": 0,
+    "byte_count": 128512,
+    "duration_sec": 5445205,
+    "duration_nsec": 753000000,
+    "priority": 200,
+    "length": 112,
+    "flags": 0,
+    "table_id": 0,
+    "match": {
+        "dl_type": 2048,
+        "nw_dst": "10.5.24.51"
+    }
+},

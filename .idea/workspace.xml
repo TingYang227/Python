@@ -14,10 +14,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Leetcode/969.py">
+        <entry file="file://$PROJECT_DIR$/Tree/TreeTraversals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="48">
+              <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-end-line="17" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -42,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Simulation.py" />
         <option value="$PROJECT_DIR$/Deque.py" />
         <option value="$PROJECT_DIR$/PalindromeChecker.py" />
         <option value="$PROJECT_DIR$/Node.py" />
@@ -93,21 +101,21 @@
         <option value="$PROJECT_DIR$/Tree/binaryserach.py" />
         <option value="$PROJECT_DIR$/Tree/binarysearch.py" />
         <option value="$PROJECT_DIR$/Leetcode/969.py" />
+        <option value="$PROJECT_DIR$/Tree/TreeTraversals.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="408" />
-    <option name="y" value="224" />
-    <option name="width" value="1092" />
-    <option name="height" value="586" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="2586" />
+    <option name="height" value="1386" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,6 +137,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,8 +156,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.binarysearch">
-    <configuration name="845" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.TreeTraversals">
+    <configuration name="TreeTraversals" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode/845.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tree/TreeTraversals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TreeTraversals" />
         <item itemvalue="Python.binarysearch" />
         <item itemvalue="Python.binarytree" />
         <item itemvalue="Python.quicksort" />
         <item itemvalue="Python.mergesort" />
-        <item itemvalue="Python.845" />
       </list>
     </recent_temporary>
   </component>
@@ -286,14 +295,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="204" y="112" width="546" height="293" extended-state="0" />
+    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3137255" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1272872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24960254" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3298887" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29444444" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45555556" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27222222" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -327,20 +336,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BalancedSymbols.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UnorderedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-268">
@@ -630,12 +625,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tree/binaryserach.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tree/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/binaryserach.py" />
+    <entry file="file://$PROJECT_DIR$/Tree/test.py" />
     <entry file="file://$PROJECT_DIR$/Tree/binarysearch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
@@ -673,8 +664,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode/969.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="152">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/TreeTraversals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
         </state>
       </provider>
     </entry>
